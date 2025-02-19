@@ -5,6 +5,9 @@ import Coin from "./../assets/images/coin.png";
 import SanniImg from "../assets/images/user1.png";
 import LayoImg from "../assets/images/user2.png";
 import HenryImg from "../assets/images/user3.png";
+import Eke from "../assets/images/eke.png";
+import Sherrif from "../assets/images/sherrif.png";
+import Damilare from "../assets/images/damilare.png";
 
 export const offers = [
   {
@@ -48,4 +51,21 @@ export const riseUsers = [
   { id: 1, name: "Sanni", src: SanniImg },
   { id: 2, name: "Layo", src: LayoImg },
   { id: 3, name: "Henry", src: HenryImg },
+];
+export const experts = [
+  {
+    name: "Eke Urum",
+    title: "Founder & CEO",
+    src: Eke,
+  },
+  {
+    name: "Sheriff Adeoti",
+    title: "Finance Lead",
+    src: Sherrif,
+  },
+  {
+    name: "Damilare Akinlotan",
+    title: "Finance",
+    src: Damilare,
+  },
 ];

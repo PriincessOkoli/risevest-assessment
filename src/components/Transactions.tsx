@@ -6,7 +6,7 @@ function Transactions() {
     <section className="section mx-4 xl:mx-24 lg:mx-8  mb-14 lg:mb-0 lg:mt-10 flex justify-between items-center flex-wrap lg:flex-nowrap">
       <img src={Transaction} alt="Flag 1" width="560" height="20" />
       <div className="p-6 lg:p-4 lg:pl-14 lg:w-[33.6rem]">
-        <h2 className="text-4xl xl:text-5xl text-dark font-semibold">
+        <h2 className="text-3xl xl:text-5xl text-dark font-semibold">
           Make transactions online with
           <span className="text-teal-1 italic">ease.</span>
         </h2>
