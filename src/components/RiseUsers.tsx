@@ -40,12 +40,12 @@ function RiseUsers() {
   }, []);
 
   return (
-    <section className="section px-6 lg:px-24 mb-10 py-20">
-      <h2 className="text-2xl text-center lg:text-left lg:text-5xl font-semibold mb-6">
+    <section className="section px-6 xl:px-24 lg:px-8 mb-10 py-20">
+      <h2 className="text-2xl text-center lg:text-left lg:text-4xl xl:text-5xl font-semibold mb-6">
         Meet Some <span className="italic text-teal-1">Rise Users</span>
       </h2>
       {/* larger screens */}
-      <section className="hidden lg:flex flex-wrap gap-6">
+      <section className="hidden lg:flex gap-6">
         {riseUsers.map((img) => (
           <div
             key={img.id}

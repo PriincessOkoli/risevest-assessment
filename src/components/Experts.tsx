@@ -3,9 +3,9 @@ import ArrowRight from "../assets/icons/arrow-right.svg";
 
 function Experts() {
   return (
-    <section className="section section2 lg:py-10 mx-4 lg:mx-24 lg:mt-10 flex justify-between items-center flex-wrap mx-auto rounded-[2rem]">
+    <section className="section section2 lg:py-10 mx-4 xl:mx-24 lg:mx-8 lg:mt-10 flex justify-between items-center flex-wrap mx-auto rounded-[2rem]">
       <div className="p-6 lg:p-4 lg:pl-14 lg:w-[33.6rem]">
-        <h2 className="text-4xl lg:text-5xl text-dark font-semibold">
+        <h2 className="text-4xl xl:text-5xl text-dark font-semibold">
           Easy. Diversified. Managed by{" "}
           <span className="text-teal-1">Experts.</span>
         </h2>
@@ -22,7 +22,7 @@ function Experts() {
           <img src={ArrowRight} alt="Arrow Right" width="13" height="13" />
         </button>
       </div>
-      <div className=" pl-6 py-16">
+      <div className=" xl:pl-6 py-16">
         <img src={Phone} alt="phone" />
       </div>
     </section>

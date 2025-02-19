@@ -28,11 +28,11 @@ function OurNumbers() {
           <span className="flex items-center">
             <p className="text-3xl text-dark lg:text-6xl font-medium">5</p>
             <div className="flex items-center -space-x-12 mt-1">
-              <img src={Flag1} alt="Flag 1" />
-              <img src={Flag2} alt="Flag 2" />
-              <img src={Flag3} alt="Flag 3" />
-              <img src={Flag4} alt="Flag 4" />
-              <img src={Flag5} alt="Flag 5" />
+              <img src={Flag1} alt="Flag 1" width={70} height={20} />
+              <img src={Flag2} alt="Flag 2" width={70} height={20} />
+              <img src={Flag3} alt="Flag 3" width={70} height={20}/>
+              <img src={Flag4} alt="Flag 4" width={70} height={20}/>
+              <img src={Flag5} alt="Flag 5" width={70} height={20}/>
             </div>
           </span>
 

@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <header className="px-3">
-      <section className="top-bar flex justify-between items-center lg:px-24 py-3 lg:py-6">
+      <section className="top-bar flex justify-between items-center xl:px-24 lg:px-8 py-3 lg:py-6">
         <a href="#">
           <img
             src="logo.png"
@@ -44,14 +44,14 @@ function Header() {
           <img src="/menu-icon.svg" alt="Menu Icon" width="24" height="24" />
         </button>
       </section>
-      <section className="hero-content w-full mt-4 lg:mt-10 flex justify-between flex-wrap mx-auto">
-        <section className="p-4 lg:pl-24">
-          <div className=" lg:w-[33.6rem] lg:mt-16">
+      <section className="hero-content w-full mt-4 flex-wrap lg:mt-10 flex justify-between mx-auto">
+        <section className="p-4 xl:pl-24 lg:pl-8">
+          <div className=" xl:w-[33.6rem] lg:w-[27.6rem] xl:mt-14 lg:mt-2">
             <button className="mb-2 flex gap-2 text-xs text-teal-1 border border-teal-2 py-2 px-3 bg-teal-4">
               READ OUR COST OF LIVING REPORT 2024{" "}
               <img src={ArrowForward} alt="Arrow Right" width="7" height="13" />
             </button>
-            <h1 className="text-4xl  mt-4 lg:text-6xl text-dark font-semibol">
+            <h1 className="text-4xl  mt-4 xl:text-6xl lg:text-5xl text-dark font-semibol">
               Dollar investments that help you{" "}
               <span className="text-teal-1">grow.</span>
             </h1>
@@ -83,13 +83,19 @@ function Header() {
               Dowload app
             </button>
           </div>
-          <div className="border rounded-lg p-5 mt-14 lg:mt-[10rem]">
+          <div className="border rounded-lg p-5 mt-14 xl:mt-[10rem] lg:mt-[8rem]">
             <p className="text-light text-sm mb-1">Investors and Partners</p>
-            <img src={investors} alt="Our investors" width="520" height="38" />
+            <img
+              src={investors}
+              alt="Our investors"
+              width="520"
+              height="38"
+              className="xl:w-[33.6rem] lg:w-[26.6rem]"
+            />
           </div>
         </section>
-        <section className="mt-14 lg:mt-0">
-          <img src={HeroImage} alt="plans" width={614} height={903} />
+        <section className="mt-14 lg:mt-0 xl:w-[36.6rem] lg:w-[27.6rem]">
+          <img src={HeroImage} alt="plans" width={584} height={850} />
         </section>
       </section>
     </header>

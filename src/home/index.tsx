@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import React from "react";
 import OurNumbers from "../components/OurNumbers";
 import OurOffers from "../components/OurOffers";
+import Transactions from "../components/Transactions";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Main() {
       <Experts />
       <OurNumbers />
       <OurOffers />
+      <Transactions />
     </main>
   );
 }
