@@ -1,0 +1,51 @@
+import Stock from "./../assets/images/stock.png";
+import RealEstate from "./../assets/images/real-estate.png";
+import Goal from "./../assets/images/goal.png";
+import Coin from "./../assets/images/coin.png";
+import SanniImg from "../assets/images/user1.png";
+import LayoImg from "../assets/images/user2.png";
+import HenryImg from "../assets/images/user3.png";
+
+export const offers = [
+  {
+    id: 1,
+    title: "We bring the world’s best companies to you. ",
+    description:
+      "The Rise stock portfolio is a selection of stocks of the world’s most profitable companies, curated by experts to deliver great long term returns.",
+    btn: "Create a stock plan now ",
+    image: Stock,
+    bg: "bg-teal-4",
+  },
+  {
+    id: 2,
+    title: "We offer diverse investment options. ",
+    description:
+      "Our real estate offering is a portfolio of rental properties in the US that provide steady monthly returns, price appreciation and capital gains. Your investments are more stable and protect you from market declines. ",
+    btn: "Create a real estate plan now  ",
+    image: RealEstate,
+    bg: "bg-purple",
+  },
+  {
+    id: 3,
+    title: "There’s something for everyone.",
+    description:
+      "Looking for stable and safe returns? Our fixed-income portfolio delivers consistent returns annually and is perfect for low-risk investors",
+    btn: "Create a fixed-income plan now ",
+    image: Goal,
+    bg: "bg-indigo",
+  },
+  {
+    id: 1,
+    title: "We bring the world’s best companies to you. ",
+    description:
+      " Rise gives you the ability to choose a financial goal, whether tuition, a wedding, travel or retirement and put money away regularly toward them. ",
+    btn: "Explore our goal based plans",
+    image: Coin,
+    bg: "bg-orange",
+  },
+];
+export const riseUsers = [
+  { id: 1, name: "Sanni", src: SanniImg },
+  { id: 2, name: "Layo", src: LayoImg },
+  { id: 3, name: "Henry", src: HenryImg },
+];

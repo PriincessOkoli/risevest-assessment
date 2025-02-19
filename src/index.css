@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Tomato Grotesk";
+  src: url("./../public/fonts/Grotesk.ttf") format("truetype");
+  font-weight: 1 1000;
+  font-display: swap;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "DM Sans";
+
+  font-weight: 1 1000;
+
+  src: url("./../public/fonts/DMSans.ttf") format("truetype");
+
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans";
+}
+a {
+  color: #1c232b;
+  margin: 0 12px;
+  font-size: 14px;
+}
+a:active {
+  color: #0898a0;
+}
+button {
+  border-radius: 50px;
+  padding: 12px 20px;
+  font-size: 14px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.section2 {
+  background-color: rgba(113, 135, 156, 0.04);
+}
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+.section {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
 }
