@@ -106,7 +106,8 @@ function Header() {
               type="button"
               className="bg-[#71879C0D] text-xs lg:text-md text-dark flex items-center gap-2"
             >
-              <img src={AppleIcon} alt="Apple Logo" width="18" height="18" />{" "}
+              <img src={AppleIcon} alt="Apple Logo" width="18" height="18" />
+              <span className="bg-neutral opacity- w-[1px] h-3"></span>
               <img
                 src={GooglePlayIcon}
                 alt="Google Play Logo"

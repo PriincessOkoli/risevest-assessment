@@ -10,19 +10,20 @@ function Download() {
         <h2 className="text-4xl xl:text-5xl text-dark font-semibold">
           Rise makes investing simple.
         </h2>
-        <div className="flex mt-20 gap-1 lg:gap-2">
+        <div className="flex flex-wrap mt-20 gap-2">
           <button
             type="button"
-            className="bg-primary text-xs lg:text-md text-white flex items-center gap-1 lg:gap-2"
+            className="bg-primary w-[20rem] justify-center md:p-3 lg:w-fit text-xs lg:text-md text-white flex items-center gap-2"
           >
             Start investing
             <img src={ArrowRight} alt="Arrow Right" width="13" height="13" />
           </button>
           <button
             type="button"
-            className="bg-[#71879C0D] text-xs lg:text-md text-dark flex items-center gap-1 lg:gap-2"
+            className="bg-[#71879C0D] w-[20rem] justify-center md:p-3 lg:w-fit text-xs lg:text-md text-dark flex items-center gap-2"
           >
             <img src={AppleIcon} alt="Apple Logo" width="18" height="18" />{" "}
+            <span className="bg-neutral opacity-50 w-[1px] h-3"></span>
             <img
               src={GooglePlayIcon}
               alt="Google Play Logo"

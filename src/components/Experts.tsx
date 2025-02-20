@@ -1,9 +1,18 @@
 import Phone from "./../assets/images/phone.webp";
 import ArrowRight from "../assets/icons/arrow-right.svg";
+import { useEffect, useState } from "react";
 
 function Experts() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsVisible(true);
+    }, 400);
+  }, []);
+
   return (
-    <section className="section section2 lg:py-10 mx-4 xl:mx-24 lg:mx-8 lg:mt-10 flex justify-between items-center flex-wrap mx-auto rounded-[2rem]">
+    <section className="section section2 lg:py-10 mx-5 xl:mx-24 lg:mx-8 lg:mt-10 flex justify-between items-center flex-wrap mx-auto rounded-[2rem] overflow-hidden">
       <div className="p-6 lg:p-4 lg:pl-14 lg:w-[33.6rem]">
         <h2 className="text-4xl xl:text-5xl text-dark font-semibold">
           Easy. Diversified. Managed by{" "}
@@ -22,8 +31,14 @@ function Experts() {
           <img src={ArrowRight} alt="Arrow Right" width="13" height="13" />
         </button>
       </div>
-      <div className=" xl:pl-6 py-16">
-        <img src={Phone} alt="phone" />
+      <div className=" xl:pl-6 py-16 pl-3 overflow-hidden">
+        <img
+          src={Phone}
+          alt="phone"
+          className={`transform transition-transform duration-700 ease-out ${
+            isVisible ? "translate-x-0 opacity-100" : "translate-x-20 opacity-0"
+          }`}
+        />
       </div>
     </section>
   );

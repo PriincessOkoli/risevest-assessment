@@ -11,20 +11,20 @@ function OurNumbers() {
         See our <span className="text-teal-1 italic">numbers</span>
       </h2>
 
-      <div className="flex flex-row flex-wrap justify-center items-center gap-6 lg:gap-10 mt-6">
-        <div className="text-center p-6 flex flex-col gap-6">
+      <div className="flex flex-row flex-wrap justify-center items-center gap-3 lg:gap-10 mt-6">
+        <div className="text-center p-3 lg:p-6 flex flex-col gap-4 lg:gap-6">
           <p className="text-3xl text-dark lg:text-6xl font-medium">300k +</p>
           <p className="text-teal-1 text-base lg:text-2xl">Users</p>
         </div>
 
-        <div className="text-center p-6 flex flex-col gap-6">
+        <div className="text-center p-3 lg:p-6 flex flex-col gap-4 lg:gap-6">
           <p className="text-3xl text-dark lg:text-6xl font-medium">$42 m +</p>
           <p className="text-teal-1 text-base lg:text-2xl">
             Payed out to users
           </p>
         </div>
 
-        <div className="text-center p-6 gap-6 flex flex-col">
+        <div className="text-center p-3 lg:p-6 gap-4 lg:gap-6 flex flex-col">
           <span className="flex items-center">
             <p className="text-3xl text-dark lg:text-6xl font-medium">5</p>
             <div className="flex items-center -space-x-12 mt-1">

@@ -2,6 +2,7 @@ import CommunityImg from "./../assets/images/community.webp";
 import ArrowRight from "../assets/icons/arrow-right.svg";
 
 function OurCommunity() {
+
   return (
     <section className="section bg-teal-1 lg:pt-10 xl:mx-24 lg:mx-8 lg:mt-20 flex justify-between flex-wrap lg:flex-nowrap lg:rounded-[2rem]">
       <div className="p-6 lg:pb-10 lg:p-4 lg:pl-14 lg:w-[33.6rem]">
@@ -21,7 +22,7 @@ function OurCommunity() {
           <img src={ArrowRight} alt="Arrow Right" width="13" height="13" />
         </button>
       </div>
-      <div className="py-16">
+      <div className="pt-[6.3rem]">
         <img
           src={CommunityImg}
           alt="community image"

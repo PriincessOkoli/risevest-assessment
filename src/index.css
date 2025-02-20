@@ -4,8 +4,12 @@
 
 @font-face {
   font-family: "Tomato Grotesk";
-  src: url("./../public/fonts/Grotesk.ttf") format("truetype");
-  font-weight: 1 1000;
+  src: url("./../public/fonts/TomatoGrotesk-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Tomato Grotesk SemiBold";
+  src: url("./../public/fonts/TomatoGrotesk-SemiBold.ttf") format("truetype");
   font-display: swap;
 }
 
@@ -23,11 +27,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "DM Sans";
+  font-family: "Tomato Grotesk SemiBold";
 }
 body {
   max-width: 1500px;
   margin: 0 auto;
+}
+p {
+  font-family: "DM Sans";
+}
+a {
+  font-family: "Tomato Grotesk";
 }
 nav > a {
   color: #1c232b;

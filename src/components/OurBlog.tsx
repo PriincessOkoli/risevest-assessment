@@ -22,7 +22,7 @@ function OurBlog() {
           <img src={ArrowRight} alt="Arrow Right" width="13" height="13" />
         </button>
       </div>
-      <div className="bg-[#5E7387] hidden lg:block opacity-5 w-[2px] h-[25rem]"></div>
+      <div className="bg-[#5E7387] hidden lg:block opacity-50 w-[2px] h-[25rem]"></div>
       <div className="grid grid-cols-1 gap-6 xl:gap-10 lg:w-[28.6rem]">
         <article className="flex items-center space-x-4 p-3 rounded-lg hover:bg-gray-50">
           <img
@@ -32,7 +32,7 @@ function OurBlog() {
             height="104"
           />
           <div>
-            <h3 className="text-base">May Portfolio Report</h3>
+            <h3 className="text-base font-tomato">May Portfolio Report</h3>
             <p className="text-light text-lg">
               Rise has added YouTube to its stocks portfolio growth.
             </p>
@@ -42,7 +42,7 @@ function OurBlog() {
         <article className="flex items-center space-x-4 p-3 rounded-lg hover:bg-gray-50">
           <img src={BlogImg1} alt="User Stories" width="104" height="104" />
           <div>
-            <h3 className="text-base">User Stories</h3>
+            <h3 className="text-base font-tomato">User Stories</h3>
             <p className="text-light text-lg">
               Rise has added YouTube to its stocks portfolio growth.
             </p>
@@ -52,7 +52,7 @@ function OurBlog() {
         <article className="flex items-center space-x-4 p-3 rounded-lg hover:bg-gray-50">
           <img src={BlogImg3} alt="Update" width="104" height="104" />
           <div>
-            <h3 className="text-base">Update</h3>
+            <h3 className="text-base font-tomato">Update</h3>
             <p className="text-light text-lg">
               Rise has added YouTube to its stocks portfolio growth.
             </p>

@@ -33,9 +33,10 @@ function Footer() {
             <div className="flex flex-col gap-5 lg:order-1">
               <button
                 type="button"
-                className="w-[20rem] justify-center lg:w-fit bg-teal-2 text-sm lg:text-md text-white flex items-center gap-2"
+                className="w-[20rem] justify-center md:p-3 lg:w-fit bg-teal-2 text-sm lg:text-md text-white flex items-center gap-2"
               >
-                <img src={AppleIcon} alt="Apple Logo" width="18" height="18" />{" "}
+                <img src={AppleIcon} alt="Apple Logo" width="18" height="18" />
+                <span className="bg-white opacity-50 w-[1px] h-3"></span>
                 <img
                   src={GooglePlayIcon}
                   alt="Google Play Logo"
@@ -46,7 +47,7 @@ function Footer() {
               </button>
               <button
                 type="button"
-                className="bg-primary px-6 w-[20rem] justify-center lg:w-fit border border-teal-4 text-sm lg:text-md text-white flex items-center gap-2"
+                className="bg-primary px-6 w-[20rem] md:p-3 justify-center lg:w-fit border border-teal-4 text-sm lg:text-md text-white flex items-center gap-2"
               >
                 Start investing
                 <img
