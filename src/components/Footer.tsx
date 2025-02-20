@@ -11,7 +11,7 @@ function Footer() {
     <section className="">
       <Newsletter />
       <div className="bg-primary w-full text-white">
-        <footer className="-mt-[7rem] lg:-mt-[5rem] px-6 pt-[12rem] lg:px-24">
+        <footer className="max -mt-[7rem] lg:-mt-[5rem] px-6 pt-[12rem] lg:px-24">
           <div className="grid md:grid-cols-2 items-start pb-16 lg:grid-cols-[auto,1fr,auto] gap-8 xl:gap-12">
             <div className="">
               <div>

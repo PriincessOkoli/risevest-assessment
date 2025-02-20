@@ -29,7 +29,7 @@
   box-sizing: border-box;
   font-family: "Tomato Grotesk SemiBold";
 }
-body {
+main, header, .max {
   max-width: 1500px;
   margin: 0 auto;
 }
