@@ -1,4 +1,4 @@
-import Transaction from "./../assets/images/transaction.png";
+import Transaction from "./../assets/images/transaction.webp";
 import ArrowRight from "./../assets/icons/arrow-right-teal.svg";
 
 function Transactions() {

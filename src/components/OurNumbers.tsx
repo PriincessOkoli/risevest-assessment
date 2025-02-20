@@ -1,8 +1,8 @@
-import Flag1 from "./../assets/images/flag1.png";
-import Flag2 from "./../assets/images/flag2.png";
-import Flag3 from "./../assets/images/flag3.png";
-import Flag4 from "./../assets/images/flag4.png";
-import Flag5 from "./../assets/images/flag5.png";
+import Flag1 from "./../assets/images/flag1.webp";
+import Flag2 from "./../assets/images/flag2.webp";
+import Flag3 from "./../assets/images/flag3.webp";
+import Flag4 from "./../assets/images/flag4.webp";
+import Flag5 from "./../assets/images/flag5.webp";
 
 function OurNumbers() {
   return (
@@ -30,9 +30,9 @@ function OurNumbers() {
             <div className="flex items-center -space-x-12 mt-1">
               <img src={Flag1} alt="Flag 1" width={70} height={20} />
               <img src={Flag2} alt="Flag 2" width={70} height={20} />
-              <img src={Flag3} alt="Flag 3" width={70} height={20}/>
-              <img src={Flag4} alt="Flag 4" width={70} height={20}/>
-              <img src={Flag5} alt="Flag 5" width={70} height={20}/>
+              <img src={Flag3} alt="Flag 3" width={70} height={20} />
+              <img src={Flag4} alt="Flag 4" width={70} height={20} />
+              <img src={Flag5} alt="Flag 5" width={70} height={20} />
             </div>
           </span>
 

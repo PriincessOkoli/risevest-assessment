@@ -1,4 +1,4 @@
-import Phone from "./../assets/images/phone.png";
+import Phone from "./../assets/images/phone.webp";
 import ArrowRight from "../assets/icons/arrow-right.svg";
 import AppleIcon from "../assets/icons/apple.svg";
 import GooglePlayIcon from "../assets/icons/google-play.svg";
@@ -36,21 +36,21 @@ function Download() {
       </div>
       <div className="relative pt-10 w-full max-w-[400px] mx-10 xl:pl-6">
         <img
-          src="/down-img1.png"
+          src="/down-img1.webp"
           alt="Phone Front View"
           width="432"
           className="relative z-10 "
         />
 
         <img
-          src="/down-img3.png"
+          src="/down-img3.webp"
           alt="Left Bubble"
           width="400"
           className="absolute left-[-4rem] lg:left-[-10rem] bottom-0 z-0"
         />
 
         <img
-          src="/down-img2.png"
+          src="/down-img2.webp"
           alt="Right Bubble"
           width="140"
           className="absolute right-[-40px] bottom-[-0px] z-10"

@@ -1,10 +1,11 @@
-import HeroImage from "./../assets/images/hero-image.png";
+import HeroImage from "./../assets/images/hero-image.webp";
 import ArrowRight from "../assets/icons/arrow-right.svg";
 import AppleIcon from "../assets/icons/apple.svg";
 import GooglePlayIcon from "../assets/icons/google-play.svg";
 import { useState } from "react";
 import ArrowForward from "../assets/icons/arrow-forward.svg";
-import investors from "../assets/images/investors.png";
+import investors from "../assets/images/investors.webp";
+import CloseIcon from "../assets/icons/close.svg";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,7 +15,7 @@ function Header() {
       <section className="top-bar flex justify-between items-center xl:px-24 lg:px-8 py-3 lg:py-6">
         <a href="#">
           <img
-            src="logo.png"
+            src="logo.webp"
             alt="rise logo"
             width={65}
             height={19}
@@ -44,6 +45,38 @@ function Header() {
           <img src="/menu-icon.svg" alt="Menu Icon" width="24" height="24" />
         </button>
       </section>
+      {menuOpen && (
+        <div className="fixed inset-0 bg-white z-50 flex flex-col p-6 space-y-6 shadow-lg transition-transform transform translate-x-0">
+          <div className="flex justify-between items-center">
+            <img src="/logo.webp" alt="Rise logo" width={65} height={19} />
+            <button
+              onClick={() => setMenuOpen(false)}
+              className="text-gray-700"
+            >
+              <img src={CloseIcon} alt="Close Menu" width="24" height="24" />
+            </button>
+          </div>
+          <nav className="flex flex-col space-y-4">
+            <a href="#" className="text-lg hover:text-primary">
+              Why Rise
+            </a>
+            <a href="#" className="text-lg hover:text-primary">
+              Blog
+            </a>
+            <a href="#" className="text-lg hover:text-primary">
+              Rise for Business
+            </a>
+          </nav>
+          <div className="flex flex-col gap-4">
+            <button className="bg-gray-100 text-dark py-3 rounded-lg">
+              Log In
+            </button>
+            <button className="bg-primary text-white py-3 rounded-lg">
+              Get Started
+            </button>
+          </div>
+        </div>
+      )}
       <section className="hero-content w-full mt-4 flex-wrap lg:mt-10 flex justify-between mx-auto">
         <section className="p-4 xl:pl-24 lg:pl-8">
           <div className=" xl:w-[33.6rem] lg:w-[27.6rem] xl:mt-14 lg:mt-2">

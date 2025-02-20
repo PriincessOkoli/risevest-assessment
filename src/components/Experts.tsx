@@ -1,4 +1,4 @@
-import Phone from "./../assets/images/phone.png";
+import Phone from "./../assets/images/phone.webp";
 import ArrowRight from "../assets/icons/arrow-right.svg";
 
 function Experts() {

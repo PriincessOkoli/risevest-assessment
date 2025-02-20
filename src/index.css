@@ -25,6 +25,10 @@
   box-sizing: border-box;
   font-family: "DM Sans";
 }
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 a {
   color: #1c232b;
   margin: 0 12px;
@@ -51,15 +55,14 @@ button {
 }
 @keyframes fadeInUp {
   from {
-      opacity: 0;
-      transform: translateY(20px);
+    opacity: 0;
+    transform: translateY(20px);
   }
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
-
 
 .section {
   opacity: 0;

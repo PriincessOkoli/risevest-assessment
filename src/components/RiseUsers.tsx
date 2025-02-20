@@ -54,7 +54,7 @@ function RiseUsers() {
             <img
               src={img.src}
               alt={img.name}
-              width={398}
+              width={388}
               height={272}
               className="h-[17rem]"
             />

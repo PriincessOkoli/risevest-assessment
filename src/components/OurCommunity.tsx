@@ -1,4 +1,4 @@
-import CommunityImg from "./../assets/images/community.png";
+import CommunityImg from "./../assets/images/community.webp";
 import ArrowRight from "../assets/icons/arrow-right.svg";
 
 function OurCommunity() {

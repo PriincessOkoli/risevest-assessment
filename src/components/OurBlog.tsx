@@ -1,7 +1,7 @@
 import ArrowRight from "../assets/icons/arrow-right.svg";
-import BlogImg1 from "../assets//images/blog-img1.png";
-import BlogImg2 from "../assets//images/blog-img2.png";
-import BlogImg3 from "../assets//images/blog-img3.png";
+import BlogImg1 from "../assets//images/blog-img1.webp";
+import BlogImg2 from "../assets//images/blog-img2.webp";
+import BlogImg3 from "../assets//images/blog-img3.webp";
 
 function OurBlog() {
   return (
@@ -24,7 +24,7 @@ function OurBlog() {
       </div>
       <div className="bg-[#5E7387] hidden lg:block opacity-5 w-[2px] h-[25rem]"></div>
       <div className="grid grid-cols-1 gap-6 xl:gap-10 lg:w-[28.6rem]">
-        <article className="flex items-center space-x-4">
+        <article className="flex items-center space-x-4 p-3 rounded-lg hover:bg-gray-50">
           <img
             src={BlogImg2}
             alt="May Portfolio Report"
@@ -39,7 +39,7 @@ function OurBlog() {
           </div>
         </article>
 
-        <article className="flex items-center space-x-4">
+        <article className="flex items-center space-x-4 p-3 rounded-lg hover:bg-gray-50">
           <img src={BlogImg1} alt="User Stories" width="104" height="104" />
           <div>
             <h3 className="text-base">User Stories</h3>
@@ -49,7 +49,7 @@ function OurBlog() {
           </div>
         </article>
 
-        <article className="flex items-center space-x-4">
+        <article className="flex items-center space-x-4 p-3 rounded-lg hover:bg-gray-50">
           <img src={BlogImg3} alt="Update" width="104" height="104" />
           <div>
             <h3 className="text-base">Update</h3>

@@ -1,13 +1,13 @@
-import Stock from "./../assets/images/stock.png";
-import RealEstate from "./../assets/images/real-estate.png";
-import Goal from "./../assets/images/goal.png";
-import Coin from "./../assets/images/coin.png";
-import SanniImg from "../assets/images/user1.png";
-import LayoImg from "../assets/images/user2.png";
-import HenryImg from "../assets/images/user3.png";
-import Eke from "../assets/images/eke.png";
-import Sherrif from "../assets/images/sherrif.png";
-import Damilare from "../assets/images/damilare.png";
+import Stock from "./../assets/images/stock.webp";
+import RealEstate from "./../assets/images/real-estate.webp";
+import Goal from "./../assets/images/goal.webp";
+import Coin from "./../assets/images/coin.webp";
+import SanniImg from "../assets/images/user1.webp";
+import LayoImg from "../assets/images/user2.webp";
+import HenryImg from "../assets/images/user3.webp";
+import Eke from "../assets/images/eke.webp";
+import Sherrif from "../assets/images/sherrif.webp";
+import Damilare from "../assets/images/damilare.webp";
 
 export const offers = [
   {
