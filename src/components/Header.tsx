@@ -94,17 +94,17 @@ function Header() {
               assets.
             </p>
           </div>
-          <div className="flex gap-2">
+          <div className="flex gap-1 lg:gap2">
             <button
               type="button"
-              className="bg-primary text-xs lg:text-md text-white flex items-center gap-2"
+              className="bg-primary text-xs lg:text-md text-white flex items-center gap-1 lg:gap2"
             >
               Start investing
               <img src={ArrowRight} alt="Arrow Right" width="13" height="13" />
             </button>
             <button
               type="button"
-              className="bg-[#71879C0D] text-xs lg:text-md text-dark flex items-center gap-2"
+              className="bg-[#71879C0D] text-xs lg:text-md text-dark flex items-center gap-1 lg:gap2"
             >
               <img src={AppleIcon} alt="Apple Logo" width="18" height="18" />
               <span className="bg-neutral opacity- w-[1px] h-3"></span>

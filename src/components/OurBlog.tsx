@@ -7,7 +7,7 @@ function OurBlog() {
   return (
     <section className="py-20 mt-20 section py-5 lg:py-0 mx-4 xl:px-24 lg:px-8 mb-14 lg:mb-0 lg:mt-10 flex justify-between flex-wrap">
       <div className="lg:p-4 lg:pl-4 lg:w-[30.6rem]">
-        <h2 className="text-4xl xl:text-5xl text-dark font-semibold">
+        <h2 className="text-3xl xl:text-5xl text-dark font-semibold">
           Get smarter about your money.
         </h2>
         <p className="text-light text-xl py-7">

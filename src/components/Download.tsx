@@ -7,7 +7,7 @@ function Download() {
     <section className="section section2 mx-4 xl:m-24 lg:mx-8 mt-6 lg:mt-10 flex justify-between items-center flex-wrap rounded-[2rem]">
       <div className="lg:py-10 p-6 lg:p-4 lg:pl-14 lg:w-[33.6rem]">
         <p className="text-light text-lg py-4">Download The Rise App</p>
-        <h2 className="text-4xl xl:text-5xl text-dark font-semibold">
+        <h2 className="text-3xl xl:text-5xl text-dark font-semibold">
           Rise makes investing simple.
         </h2>
         <div className="flex flex-wrap mt-20 gap-2">
