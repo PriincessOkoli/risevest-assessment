@@ -31,7 +31,7 @@ function Experts() {
           <img src={ArrowRight} alt="Arrow Right" width="13" height="13" />
         </button>
       </div>
-      <div className=" xl:pl-6 py-16 pl-3 overflow-hidden">
+      <div className=" xl:pl-6 py-16">
         <img
           src={Phone}
           alt="phone"
