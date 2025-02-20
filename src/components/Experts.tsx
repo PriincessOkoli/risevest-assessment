@@ -12,7 +12,7 @@ function Experts() {
   }, []);
 
   return (
-    <section className="section section2 lg:py-10 mx-5 xl:mx-24 lg:mx-8 lg:mt-10 flex justify-between items-center flex-wrap mx-auto rounded-[2rem] overflow-hidden">
+    <section className="section section2 lg:py-10 mx-3 xl:mx-24 lg:mx-8 lg:mt-10 flex justify-between items-center flex-wrap mx-auto rounded-[2rem]">
       <div className="p-6 lg:p-4 lg:pl-14 lg:w-[33.6rem]">
         <h2 className="text-4xl xl:text-5xl text-dark font-semibold">
           Easy. Diversified. Managed by{" "}
@@ -31,7 +31,7 @@ function Experts() {
           <img src={ArrowRight} alt="Arrow Right" width="13" height="13" />
         </button>
       </div>
-      <div className=" xl:pl-6 py-16">
+      <div className=" pl-3 xl:pl-6 py-16">
         <img
           src={Phone}
           alt="phone"
