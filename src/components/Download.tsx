@@ -1,4 +1,3 @@
-import Phone from "./../assets/images/phone.webp";
 import ArrowRight from "../assets/icons/arrow-right.svg";
 import AppleIcon from "../assets/icons/apple.svg";
 import GooglePlayIcon from "../assets/icons/google-play.svg";

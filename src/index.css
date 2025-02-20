@@ -26,10 +26,10 @@
   font-family: "DM Sans";
 }
 body {
-  max-width: 1400px;
+  max-width: 1500px;
   margin: 0 auto;
 }
-a {
+nav > a {
   color: #1c232b;
   margin: 0 12px;
   font-size: 14px;

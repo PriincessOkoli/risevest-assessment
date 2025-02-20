@@ -8,6 +8,11 @@ import HenryImg from "../assets/images/user3.webp";
 import Eke from "../assets/images/eke.webp";
 import Sherrif from "../assets/images/sherrif.webp";
 import Damilare from "../assets/images/damilare.webp";
+import LinkedIn from "../assets/icons/linkedin.svg";
+import Twitter from "../assets/icons/twitter.svg";
+import Instagram from "../assets/icons/instagram.svg";
+import Facebook from "../assets/icons/facebook.svg";
+import YouTube from "../assets/icons/youtube.svg";
 
 export const offers = [
   {
@@ -69,3 +74,33 @@ export const experts = [
     src: Damilare,
   },
 ];
+
+
+export const footerSocialLinks = [
+  {
+    name: 'LinkedIn',
+    href: 'https://linkedin.com/company/rise-vest',
+    icon: LinkedIn,
+  },
+  {
+    name: 'Twitter',
+    href: 'https://twitter.com/risevest',
+    icon: Twitter,
+  },
+  {
+    name: 'Instagram',
+    href: 'https://instagram.com/rise.vest',
+    icon: Instagram,
+  },
+
+  {
+    name: 'Facebook',
+    href: 'https://facebook.com/RisevestGroup',
+    icon: Facebook,
+  },
+  {
+    name: 'Youtube',
+    href: 'https://youtube.com/c/RiseCapital',
+    icon: YouTube,
+  },
+]
