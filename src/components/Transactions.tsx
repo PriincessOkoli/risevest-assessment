@@ -7,7 +7,7 @@ function Transactions() {
       <img src={Transaction} alt="Flag 1" width="560" height="20" />
       <div className="p-6 lg:p-4 lg:pl-14 lg:w-[33.6rem]">
         <h2 className="text-3xl xl:text-5xl text-dark font-semibold">
-          Make transactions online with
+          Make transactions online with{" "}
           <span className="text-teal-1 italic">ease.</span>
         </h2>
         <p className="text-light text-xl py-7">
